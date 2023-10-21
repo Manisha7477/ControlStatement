@@ -1,0 +1,18 @@
+package com.kodnest.Practice;
+import java.util.Scanner;
+public class Application9 {
+	public static void main(String[] args) {
+		Scanner s = new Scanner(System.in);
+		System.out.println("Mani ! Please enter the number");
+		int a = s.nextInt();
+		if(a%2==0)
+		{
+			System.out.println("Number is multiple of 2");
+		}
+		else
+		{
+			System.out.println("Number is not multiple of 2");
+		}
+	}
+
+}
