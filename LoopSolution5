@@ -1,0 +1,32 @@
+package com.kodnest.Practice;
+import java.util.Scanner;
+public class Solution7 {
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Mani ! Please enetr the num-1");
+		int a = scan.nextInt();
+		System.out.println("Mani ! Please enetr the num-2");
+		int b = scan.nextInt();
+		System.out.println("Mani ! Please enetr the operator");
+		//char c = scan.next().charAt(0);
+		int c  = scan.nextInt();
+		switch(c)
+		{
+		case 1 : System.out.println(a+b);
+		break;
+		case 2 : System.out.println(a-b);
+		break;
+		case 3 : System.out.println(a*b);
+		break;
+		case 4 : System.out.println(a/b);
+		break;
+		case 5 : System.out.println(a%b);
+		break;
+		default :
+			System.out.println("inavlid operator");
+		}
+		
+		System.out.println("end");
+	}
+
+}
