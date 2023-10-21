@@ -1,0 +1,18 @@
+package com.kodnest.Practice;
+import java.util.Scanner;
+public class Application8 {
+	public static void main(String[] args) {
+		Scanner s = new Scanner(System.in);
+		System.out.println("User! please choose and enter the number from 1 & 2");
+		int a = s.nextInt();
+		if(a==1)
+		{
+			System.out.println("Female");
+		}
+		if(a==2)
+		{
+			System.out.println("Male");
+		}
+	}
+
+}
