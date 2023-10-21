@@ -1,0 +1,18 @@
+package com.kodnest.Practice;
+import java.util.Scanner;
+public class Application11 {
+	public static void main(String[] args) {
+		Scanner s = new Scanner(System.in);
+		System.out.println("Mani! please enter the number");
+		int a = s.nextInt();
+		if(a%3==0 && a%5==0 )
+		{
+			System.out.println("Multiple of 3 as well as 5");
+		}
+		else
+		{
+			System.out.println("Not multiple of 3 as well as 5");
+		}
+	}
+
+}
