@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Solution1 {
+	public static void main(String[] args)
+	{
+		Scanner scan = new Scanner(System.in);
+		System.out.println("User! Please enter your num");
+		int num = scan.nextInt();
+		if(num > 0)
+		{
+			System.out.println("positive");
+		}
+		else                          //both condition will print on only one condition if...
+		{
+			System.out.println("Not positive");
+		}
+	}
+}
