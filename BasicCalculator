@@ -1,0 +1,40 @@
+package com.kodnest.Practice;
+import java.util.Scanner;
+ class Application6 {
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Manisha! please enter the number-1");
+		int a = scan.nextInt();
+		System.out.println("Manisha! please enter the number-2");
+		int b = scan.nextInt();
+		System.out.println("Manisha! please enter the operator");
+		char c = scan.next().charAt(0);
+		if(c=='+')
+		if(c=='+')
+		{
+			System.out.println(a+b);
+		}
+		else if(c=='-')
+		{
+			System.out.println(a-b);
+		}
+		else if(c=='*')
+		{
+			System.out.println(a*b);
+		}
+		else if(c=='/')
+		{
+			System.out.println(a/b);
+		}
+		else if(c=='%')
+		{
+			System.out.println(a%b);
+		}
+		else
+		{
+			System.out.println("Invalid operator");
+		}
+		System.out.println("End");
+
+   }
+}
