@@ -1,0 +1,86 @@
+package com.kodnest.Practice;
+
+import java.util.Scanner;
+
+public class Application16 {
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		char ch = scan.next().charAt(0);
+		switch(ch) {
+		case 'A':
+		case 'B':
+		case 'C':
+		case 'D':
+		case 'E':System.out.println("Pass");
+			break;
+		/*case 6:
+		case 7:
+		case 8:
+		case 9:
+		case 10:System.out.println("Number is 6-10");
+			break;*/
+		default:System.out.println("Fail");
+		}
+		//Scanner scan = new Scanner(System.in);
+		//System.out.println("Manisha! please enter the marks");
+		//int a = scan.nextInt();
+		/*switch(a) {
+		case 1: 
+			System.out.println("Grade A");
+			break;
+		case 2:
+			System.out.println("Grade B");
+			break;
+		case 3:
+			System.out.println("Grade C");
+			break;
+		case 4:
+			System.out.println("Grade D");
+			break;
+		
+		case 5: 
+			System.out.println("Fail");
+			break;
+			}*/
+		//System.out.println("Manisha! please enter value");
+		//char ch = scan.next().charAt(0);
+		/*System.out.println("Mani! please enter the operand-1");
+		int a= scan.nextInt();
+		System.out.println("Mani! please enter the operand-2");
+		int b= scan.nextInt();*/
+		//int a= scan.nextInt();
+		//boolean value = scan.nextBoolean(); //compiler error
+		//byte b = scan.nextByte();      //permitted
+		//short s = scan.nextShort();   //permitted
+		//long l = scan.nextLong();    //error
+		//float f = scan.nextFloat();  //error
+		//double d = scan.nextDouble();  //error
+		/*String str = scan.nextLine();   //permitted
+		
+		switch (str) {
+		case "one":
+			if(4>0) {
+				System.out.println("even");
+			}
+				else {
+					System.out.println("odd");
+				}
+			}*/
+		/*switch (str) {                              //nested switch statement
+		case "one":System.out.println("one");
+			break;
+		default:System.out.println("invalid range value");
+		}*/
+		/*case "two": System.out.println("two");
+			break;
+		case "three":System.out.println("three");
+			break;
+		case "four":System.out.println("four");
+			break;
+		case "five": System.out.println("five");
+			break;*/
+		//default:System.out.println("invalid range value");
+		//}
+	}
+
+}
