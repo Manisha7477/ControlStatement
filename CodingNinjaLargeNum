@@ -1,0 +1,32 @@
+class Application7 {
+	
+	public static void main(String args[]) {
+		Scanner s = new Scanner(System.in);
+		System.out.println("Enter a value: ");
+		int a = s.nextInt();
+		System.out.println("Enter b value: ");
+		int b = s.nextInt();
+		System.out.println("Enter c value: ");
+		int c = s.nextInt();
+		System.out.println("Largest Value: ");
+		int largest;
+		if(a>=b && a>=c)
+		{
+			largest =a;
+			//System.out.println(a + "is the highest of the amongst all.");
+		}
+		else if(b>=a && b>=c)
+		{
+			largest = b;
+			//System.out.println(b + "is the highest of the amongst all.");
+		}
+		else
+		{
+			largest = c;
+			//System.out.println(c + "is the highest of the amongst all.");
+		}
+		System.out.println(largest);
+		// Write code here
+		
+	}
+}
